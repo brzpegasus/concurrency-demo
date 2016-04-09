@@ -6,6 +6,8 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('class-session');
+  this.route('class-stats');
 });
 
 export default Router;
